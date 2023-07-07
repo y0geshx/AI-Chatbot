@@ -26,6 +26,7 @@ export default () => {
         <ConversationHeaderInfo />
       </div>
       <div class="fi gap-1 overflow-hidden">
+        <ConversationMessageSettingButton />
         <ConversationMessageClearButton />
         <ConversationMessageShareButton />
         <div
