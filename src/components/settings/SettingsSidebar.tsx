@@ -44,6 +44,10 @@ export default () => {
           </a>
           <span class="px-1"> · </span>
           <a target="_blank" rel="noreferrer" class="hv-foreground">
+            v0.0.2
+          </a>
+          <span class="px-1"> · </span>
+          <a target="_blank" rel="noreferrer" class="hv-foreground">
             2023
           </a>
         </div>
