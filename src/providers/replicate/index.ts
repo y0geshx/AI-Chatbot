@@ -23,7 +23,7 @@ const providerReplicate = () => {
       {
         id: 'midjourney-diffusion',
         type: 'image_generation',
-        name: 'Midjourney Diffusion',
+        name: 'Midjourney',
         settings: [],
       },
     ],
