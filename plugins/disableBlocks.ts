@@ -6,12 +6,6 @@ export default function plugin(platform?: string) {
         map: null,
       }
     }
-    if (platform === 'netlify' && id.includes('layouts/Layout.astro')) {
-      return {
-        code: code.replace(/^.*?<!-- netlify-disable-blocks -->([\s\S]+?)<!-- netlify-disable-end -->.*?$/gm, ''),
-        map: null,
-      }
-    }
   }
 
   return {
