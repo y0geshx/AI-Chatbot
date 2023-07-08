@@ -11,7 +11,7 @@ export default () => {
     <div class="fcc h-full">
       <div class="flex flex-col gap-4 w-full max-w-md mx-12 sm:mx-18 overflow-hidden">
         <div class="px-6 py-4 bg-base-100 border border-base rounded-lg">
-          <h2 class="text-sm op-70 uppercase my-2">{t('conversations.recent')}</h2>
+          <h2 class="text-xs op-70 uppercase my-2">{t('conversations.recent')}</h2>
           <div class="flex flex-col items-start">
             <For each={$conversationMapSortList().slice(0, 3)}>
               {instance => (
@@ -22,7 +22,7 @@ export default () => {
               )}
             </For>
             <Show when={!$conversationMapSortList().length}>
-              <div class="fi gap-2 h-8 text-sm op-50">{t('conversations.noRecent')}</div>
+              <div class="fi gap-2 h-8 text-sm op-60">{t('conversations.noRecent')}</div>
             </Show>
           </div>
         </div>
