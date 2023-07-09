@@ -38,6 +38,9 @@ dependencies:
   '@unocss/reset':
     specifier: ^0.53.4
     version: 0.53.4
+  '@vercel/analytics':
+    specifier: ^1.0.1
+    version: 1.0.1
   '@zag-js/checkbox':
     specifier: ^0.10.3
     version: 0.10.3
@@ -2894,6 +2897,10 @@ packages:
       react: ^16.8||^17||^18
     dependencies:
       react: 18.2.0
+    dev: false
+
+  /@vercel/analytics@1.0.1:
+    resolution: {integrity: sha512-Ux0c9qUfkcPqng3vrR0GTrlQdqNJ2JREn/2ydrVuKwM3RtMfF2mWX31Ijqo1opSjNAq6rK76PwtANw6kl6TAow==}
     dev: false
 
   /@vercel/nft@0.22.6:
