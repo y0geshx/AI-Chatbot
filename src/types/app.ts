@@ -1,6 +1,8 @@
 import type { ConversationType } from './conversation'
 import type { SettingsUI } from './provider'
-
+import { inject } from '@vercel/analytics';
+ 
+inject();
 export interface GeneralSettings {
   /** Default request directly, can choose to request via proxy */
   requestWithBackend: boolean
